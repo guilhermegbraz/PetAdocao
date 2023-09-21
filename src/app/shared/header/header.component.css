@@ -1,0 +1,13 @@
+img {
+    width: 8em;
+}
+
+mat-toolbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em 10em;
+    background-color: #36d6ad;
+}
+
+
