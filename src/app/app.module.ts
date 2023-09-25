@@ -12,6 +12,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { BannerComponent } from './shared/banner/banner.component';
 import { ContainerComponent } from './shared/container/container.component';
+import { HomeComponent } from './pages/home/home.component';
+import { CardBuscaComponent } from './shared/card-busca/card-busca.component';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,9 @@ import { ContainerComponent } from './shared/container/container.component';
     FooterComponent,
     CardComponent,
     BannerComponent,
-    ContainerComponent
+    ContainerComponent,
+    HomeComponent,
+    CardBuscaComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +33,8 @@ import { ContainerComponent } from './shared/container/container.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

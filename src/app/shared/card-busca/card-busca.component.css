@@ -1,0 +1,9 @@
+.card-pets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F6F6F6;
+    width: 410px; 
+    height: 210px;
+    padding: 1em;
+}

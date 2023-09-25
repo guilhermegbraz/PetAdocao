@@ -1,0 +1,14 @@
+.card {
+    padding: 1em;
+    &.primary {
+       background-color: #F6F6F6; 
+       width: 363px; 
+       height: 196px;
+    }
+
+    &.secundary {
+        width: 552px;
+        height: 623px;
+        background-color: #36D6AD;
+    }
+}
